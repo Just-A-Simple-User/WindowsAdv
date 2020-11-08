@@ -1,0 +1,7 @@
+C:\Users\F9V1S10N\source\repos\WindowsTweaker\WindowsTweaker\bin\Debug\WindowsTweaker.exe.config
+C:\Users\F9V1S10N\source\repos\WindowsTweaker\WindowsTweaker\bin\Debug\WindowsTweaker.exe
+C:\Users\F9V1S10N\source\repos\WindowsTweaker\WindowsTweaker\bin\Debug\WindowsTweaker.pdb
+C:\Users\F9V1S10N\source\repos\WindowsTweaker\WindowsTweaker\obj\Debug\WindowsTweaker.csprojAssemblyReference.cache
+C:\Users\F9V1S10N\source\repos\WindowsTweaker\WindowsTweaker\obj\Debug\WindowsTweaker.csproj.CoreCompileInputs.cache
+C:\Users\F9V1S10N\source\repos\WindowsTweaker\WindowsTweaker\obj\Debug\WindowsTweaker.exe
+C:\Users\F9V1S10N\source\repos\WindowsTweaker\WindowsTweaker\obj\Debug\WindowsTweaker.pdb

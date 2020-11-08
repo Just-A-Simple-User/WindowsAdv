@@ -13,14 +13,19 @@ namespace WindowsTweaker
     using SLID = Guid;
     class Program
     {
+        public static void BlueConsole(string text)
+        {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(text);
+        }
         public static string activationstatus;
         public static string OSBit;
         static void Main(string[] args)
         {
             Checking();
             Is64bitOS();
-            Console.Title = "Windows Tweaker";
-            string textToEnter = "Windows Tweaker 1 [DEBUGGING VERSION / ONLY DEVELOPERS]";
+            Console.Title = "Windows Advanced ";
+            string textToEnter = "WindowsAdv 1 [DEBUGGING VERSION / ONLY DEVELOPERS]";
             Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (textToEnter.Length / 2)) + "}", textToEnter));
             Console.WriteLine("\n\n\n");
             Console.WriteLine("[Informations]\n===========================");
@@ -31,7 +36,15 @@ namespace WindowsTweaker
             Console.WriteLine("Arhitecture: " + OSBit);
             Console.WriteLine("Logged in as: " + Environment.UserName);
             Console.WriteLine("Computer name: " +  Environment.MachineName);
+            Console.WriteLine("===========================");
+            Menu();
             Console.ReadLine();
+        }
+
+        public static void Menu()
+        {
+            BlueConsole("\n\nTweaks\n===========================");
+            BlueConsole("[1] Debloat");
         }
 
 
